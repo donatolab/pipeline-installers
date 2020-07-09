@@ -1,0 +1,11 @@
+# caiman_pipeline.yaml
+
+# installs caiman and jobcreator for running miniscope image processing
+# on the sciCORE cluster
+
+name: caiman
+dependencies:
+  - python=3.7
+  - pip
+  - pip:
+    - git+https://github.com/donatolab/jobcreator
