@@ -4,8 +4,12 @@
 # on the sciCORE cluster
 
 name: caiman
+channels:
+  - conda-forge
+  - default
 dependencies:
   - python=3.7
   - pip
+  - caiman
   - pip:
     - git+https://github.com/donatolab/jobcreator
