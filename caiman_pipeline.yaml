@@ -12,4 +12,4 @@ dependencies:
   - pip
   - caiman
   - pip:
-    - git+https://github.com/donatolab/jobcreator
+    - jobcreator==0.0.1
