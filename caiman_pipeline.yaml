@@ -12,4 +12,4 @@ dependencies:
   - pip
   - caiman
   - pip:
-    - jobcreator==0.0.3
+    - jobcreator==0.0.9
